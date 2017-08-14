@@ -161,6 +161,7 @@ private[spark] object UIUtils extends Logging {
 
   def commonHeaderNodes: Seq[Node] = {
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="about:blank"/>
     <link rel="stylesheet" href={prependBaseUri("/static/bootstrap.min.css")} type="text/css"/>
     <link rel="stylesheet" href={prependBaseUri("/static/vis.min.css")} type="text/css"/>
     <link rel="stylesheet" href={prependBaseUri("/static/webui.css")} type="text/css"/>
